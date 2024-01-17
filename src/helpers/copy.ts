@@ -4,7 +4,7 @@ export default function copyToClipboard(text: string) {
 		.then(() => {
 			return true;
 		})
-		.catch((error) => {
+		.catch(() => {
 			return false;
 		});
 }
